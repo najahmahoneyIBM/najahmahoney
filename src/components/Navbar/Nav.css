@@ -1,6 +1,11 @@
 .navbar{
-    justify-content: center;
-    align-items: center;
-    padding: 4;
-    font: 10em sans-serif;
+    padding: .5rem 1rem;
+    background-color: rgb(253, 229, 163);
+
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }

@@ -1,12 +1,17 @@
-import React from 'react'
-import './Nav.css'
+import React from "react";
+import "./Nav.css";
 
 const Nav = () => {
   return (
-    <div className='navbar'>
-    <h5>Nav</h5>
+    <div className="navbar">
+      <ul className="nav navbar-nav navbar-right">
+        <li>Work</li>
+        <li>Skills</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
