@@ -1,8 +1,16 @@
-.split-background{
-    background-color: rgb(130, 173, 48);
-    height: 100vh;
-    width: 100vw;
+.name{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
     position: absolute;
+}
+.colorpic{
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: -1;

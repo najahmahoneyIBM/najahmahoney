@@ -1,11 +1,20 @@
 .navbar{
     padding: .5rem 1rem;
-    background-color: rgb(253, 229, 163);
 
     
 }
 .nav{
-    display: flex;
-    justify-content: space-between;
+    display: relative;
     list-style: none;
+    justify-content: space-around;
+    float: right;
+    
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Montserrat";
+    opacity: 0.4;
+    font-weight: semi-bold;
 }
